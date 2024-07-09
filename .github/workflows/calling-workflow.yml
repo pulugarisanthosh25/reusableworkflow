@@ -5,7 +5,7 @@ on:
 
 jobs:
   job1:
-    uses: pulugarisanthosh25/reusableworkflow/.github/workflows/called-workflow.yml@v1
+    uses: pulugarisanthosh25/reusableworkflow/.github/workflows/called-workflow.yml@main
 
   job2:
     runs-on: ubuntu-latest
